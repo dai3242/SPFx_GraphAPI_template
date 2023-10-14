@@ -1,0 +1,51 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+      "name": "web-part-test-client-side-solution",
+      "id": "911d2a3e-775a-4622-a290-ccab816ecfe8",
+      "version": "1.0.0.0",
+      "includeClientSideAssets": true,
+      "skipFeatureDeployment": true,
+      "isDomainIsolated": false,
+      "developer": {
+        "name": "",
+        "websiteUrl": "",
+        "privacyUrl": "",
+        "termsOfUseUrl": "",
+        "mpnId": "Undefined-1.18.0"
+      },
+      "metadata": {
+        "shortDescription": {
+          "default": "web-part-test description"
+        },
+        "longDescription": {
+          "default": "web-part-test description"
+        },
+        "screenshotPaths": [],
+        "videoUrl": "",
+        "categories": []
+      },
+      "features": [
+        {
+          "title": "web-part-test Feature",
+          "description": "The feature that activates elements of the web-part-test solution.",
+          "id": "c9ddec44-6a2f-4d09-a87f-aec9ede5b87b",
+          "version": "1.0.0.0"
+        }
+      ],
+      "webApiPermissionRequests": [
+        {
+          "resource": "Microsoft Graph",
+          "scope": "User.Read"
+        },
+        {
+          "resource": "Microsoft Graph",
+          "scope": "Sites.FullControl.All"
+        }
+      ]
+    },
+    "paths": {
+      "zippedPackage": "solution/web-part-test.sppkg"
+    }
+  }
+  
